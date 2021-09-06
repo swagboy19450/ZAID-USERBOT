@@ -850,7 +850,7 @@ async def vapor(vpr):
 @register(outgoing=True, pattern="^.repo$")
 async def source(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("ᴄʟɪᴄᴋ [ᴢᴀɪᴅ ʀᴇᴘᴏ](https://github.com/Itsunknown-12/ZAID-USERBOT) ɪꜱ ᴛʜᴇ ᴄᴏᴏʟᴇꜱᴛ ʀᴇᴘᴏ.")
+        await e.edit("ᴄʟɪᴄᴋ [ᴢᴀɪᴅ ʀᴇᴘᴏ](https://github.com/Itsunknown-12/ZAIDUSERBOT) ɪꜱ ᴛʜᴇ ᴄᴏᴏʟᴇꜱᴛ ʀᴇᴘᴏ.[Support](https://t.me/zaid_support) ")
 			  
 			  
 @register(outgoing=True, pattern="^.str(?: |$)(.*)")
