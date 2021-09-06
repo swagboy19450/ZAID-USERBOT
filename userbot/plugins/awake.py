@@ -36,7 +36,7 @@ if ALIVE_MESSAGE is None:
                 
             
 #@command(outgoing=True, pattern="^.zaid$")
-@borg.on(admin_cmd(pattern=r"Zaid"))
+@borg.on(admin_cmd(pattern=r"zaid"))
 async def amireallyalive(awake):
     """ For .zaid command, check if the bot is running.  """
     await awake.delete() 
