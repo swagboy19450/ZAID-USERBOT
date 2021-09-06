@@ -23,8 +23,8 @@ async def _(event):
 
     animation_chars = [
         
-            "`Installing Files To Hacked Private Server...`",
-            "`Target Selected.`",
+            "`ᴄʜᴇᴄᴋɪɴɢ ꜰɪʟᴇꜱ ꜰᴏʀ ʜᴀᴄᴋɪɴɢ ꜱᴇʀᴠᴇʀꜱ😬...`",
+            "`ʙꜱᴅᴋ ᴀʙ ᴅᴇᴋʜ..`",
             "`Installing... 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Installing... 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Installing... 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",    
@@ -32,14 +32,14 @@ async def _(event):
             "`Installing... 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Installing... 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Installing... 84%\n█████████████████████▒▒▒▒ `",
-            "`Installing... 100%\n████████Installed██████████ `",
-            "`Target files Uploading...\n\nDirecting To Remote  server to hack..`"
+            "`Installing... 100%\n████████ʜᴀᴄᴋᴇᴅ ʜᴏ ɢʏᴀ ʙꜱᴅᴋ██████████ `",
+            "`ᴜᴘʟᴏᴀᴅɪɴɢ ꜰɪʟᴇꜱ...\n\nʜᴀᴄᴋᴇᴅ ꜰɪʟᴇꜱ ꜱᴜᴄᴇꜱꜱꜰᴜʟʟʏ ꜱᴇɴᴅᴇᴅ ᴛᴏ ᴜʀ ꜱᴀᴠᴇᴅ ᴍᴀꜱꜱᴀɢᴇꜱ..`"
         ]
   
     for i in animation_ttl:
 
         await asyncio.sleep(animation_interval)
-# Made for DARK COBRA
+# Made for ʟᴀɴᴅ
         await event.edit(animation_chars[i % 11])
 
     await asyncio.sleep(2)
@@ -67,7 +67,7 @@ async def _(event):
             
 
     for i in animation_ttl:
-# Made for DARK COBRA        
+# Made for ʟᴀɴᴅ        
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 14])
     
@@ -99,7 +99,7 @@ async def _(event):
     await asyncio.sleep(1)
     await event.edit("`hacking...88%completed\nall data from telegram private server downloaded\nterminal download sucessfull--with status jh3233fdg66y yr4vv.irh\n data collected from tg-bot\nTERMINAL:\n Bruteforce-Telegram-0.1.tar.gz (1.3)downloaded`")
     await asyncio.sleep(.5)
-    await event.edit("`100%\n█████████HACKED███████████ `\n\n\n  TERMINAL:\nDownloading Bruteforce-Telegram-0.1.tar.gz (9.3 kB)\nCollecting Data Package\n  Downloading Telegram-Data-Sniffer-7.1.1-py2.py3-none-any.whl (82 kB)\nBuilding wheel for Tg-Bruteforcing (setup.py): finished with status 'done'\nCreated wheel for telegram: filename=Telegram-Data-Sniffer-0.0.1-py3-none-any.whl size=1306 sha256=cb224caad7fe01a6649188c62303cd4697c1869fa12d280570bb6ac6a88e6b7e\n  Stored in directory: `")
+    await event.edit("`100%\n█████████ʜᴀᴄᴋ ʜᴏ ɢʏᴀ ʙꜱᴅᴋ███████████ `\n\n\n  TERMINAL:\nDownloading Bruteforce-Telegram-0.1.tar.gz (9.3 kB)\nCollecting Data Package\n  Downloading Telegram-Data-Sniffer-7.1.1-py2.py3-none-any.whl (82 kB)\nBuilding wheel for Tg-Bruteforcing (setup.py): finished with status 'done'\nCreated wheel for telegram: filename=Telegram-Data-Sniffer-0.0.1-py3-none-any.whl size=1306 sha256=cb224caad7fe01a6649188c62303cd4697c1869fa12d280570bb6ac6a88e6b7e\n  Stored in directory: `")
     await asyncio.sleep(2)
     await event.edit("`accoount hacked\n collecting all data\n converting data into pdf`")
     await asyncio.sleep(1)
