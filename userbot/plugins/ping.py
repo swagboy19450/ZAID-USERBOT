@@ -15,7 +15,7 @@ async def _(event):
     start = datetime.now()
     animation_interval = 0.2
     animation_ttl = range(0, 26)
-    await edit_or_reply(event, "ping....")
+    await edit_or_reply(event, "ᴢᴀɪᴅ....")
     animation_chars = [
         "⬛⬛⬛⬛⬛⬛⬛⬛⬛",
         "⬛⬛⬛⬛⬛⬛⬛⬛⬛ \n⬛‎📶‎📶‎📶‎📶‎📶‎📶‎📶⬛",
@@ -63,11 +63,11 @@ async def _(event):
         return
     start = datetime.now()
     ghanta = borg.uid
-    event = await edit_or_reply(event, "__**(★ Kong!__**")
+    event = await edit_or_reply(event, "__**(★ Zαιԃ!__**")
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(
-        f"__**⚡➳ ℙ𝕆ℕ𝔾!__**\n𝓜𝓼 {ms}\n★ __**🅜🅨**__ __**🅜🅐🅢🅣🅔🅡**__ [{DEFAULTUSER}](tg://user?id={ghanta})"
+        f"__**➳ ℙ𝕆ℕ𝔾!__**\n𝑴𝒔 {ms}\n★ __**Mყ**__ __**Mαʂƚҽɾ**__ [{DEFAULTUSER}](tg://user?id={ghanta})"
     )
 
 
