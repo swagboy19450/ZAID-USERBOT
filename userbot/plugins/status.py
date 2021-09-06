@@ -1,7 +1,7 @@
 # Thanks to @hellboi_atul
 
 """Count the Number of Dialogs you have in your Telegram Account
-Syntax: .status"""
+Syntax: .stats"""
 import logging
 import time
 
@@ -16,7 +16,7 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 logger = logging.getLogger(__name__)
 
-@borg.on(admin_cmd(pattern='status'))  
+@borg.on(admin_cmd(pattern='stats'))  
 async def stats(event: NewMessage.Event) -> None:  # pylint: disable = R0912, R0914, R0915
     """Command to get stats about the account"""
     waiting_message = await event.edit('`Collecting stats, Wait Master`')
@@ -74,21 +74,21 @@ async def stats(event: NewMessage.Event) -> None:  # pylint: disable = R0912, R0
     stop_time = time.time() - start_time
 
     full_name = inline_mention(await event.client.get_me())
-    response = f'🔸 **Stats for {full_name}** \n\n'
-    response += f'**Private Chats:** {private_chats} \n'
-    response += f'   • `Users: {private_chats - bots}` \n'
-    response += f'   • `Bots: {bots}` \n'
-    response += f'**Groups:** {groups} \n'
-    response += f'**Channels:** {broadcast_channels} \n'
-    response += f'**Admin in Groups:** {admin_in_groups} \n'
-    response += f'   • `Creator: {creator_in_groups}` \n'
-    response += f'   • `Admin Rights: {admin_in_groups - creator_in_groups}` \n'
-    response += f'**Admin in Channels:** {admin_in_broadcast_channels} \n'
-    response += f'   • `Creator: {creator_in_channels}` \n'
-    response += f'   • `Admin Rights: {admin_in_broadcast_channels - creator_in_channels}` \n'
-    response += f'**Unread:** {unread} \n'
-    response += f'**Unread Mentions:** {unread_mentions} \n\n'
-    response += f'__It Took:__ {stop_time:.02f}s \n'
+    response = f'🔸 **🆂🆃🅰🆃🆂 🅾🅵 {full_name}** \n\n'
+    response += f'**ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛꜱ:** {private_chats} \n'
+    response += f'   • `ᴜꜱᴇʀꜱ: {private_chats - bots}` \n'
+    response += f'   • `ʙᴏᴛꜱ: {bots}` \n'
+    response += f'**ɢʀᴏᴜᴘꜱ:** {groups} \n'
+    response += f'**ᴄʜᴀɴɴᴇʟꜱ:** {broadcast_channels} \n'
+    response += f'**ᴀᴅᴍɪɴꜱ ɪɴ ɢʀᴘ:** {admin_in_groups} \n'
+    response += f'   • `ᴄʀᴇᴀᴛᴇʀ: {creator_in_groups}` \n'
+    response += f'   • `ᴀᴅᴍɪɴ ʀɪɢʜᴛꜱ: {admin_in_groups - creator_in_groups}` \n'
+    response += f'**ᴀᴅᴍɪɴ ɪɴ ᴄʜᴀɴɴᴇʟꜱ:** {admin_in_broadcast_channels} \n'
+    response += f'   • `ᴄʀᴇᴀᴛᴇʀ: {creator_in_channels}` \n'
+    response += f'   • `ᴀᴅᴍɪɴ ʀɪɢʜᴛꜱ: {admin_in_broadcast_channels - creator_in_channels}` \n'
+    response += f'**ᴜɴʀᴇᴀᴅ:** {unread} \n'
+    response += f'**ᴜɴʀᴇᴀᴅ ᴍᴇꜱꜱᴀɢᴇꜱ:** {unread_mentions} \n\n'
+    response += f'__ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:__ {stop_time:.02f}s \n'
 
     await event.edit(response)
 
@@ -115,7 +115,7 @@ def user_full_name(user):
 CMD_HELP.update(
     {
         "stats": "__**PLUGIN NAME :** status__\
-    \n\n📌** CMD ★** `.status`\
+    \n\n📌** CMD ★** `.statꜱ`\
     \n**USAGE   ★  **Shows user's stats.."
     }
 )
