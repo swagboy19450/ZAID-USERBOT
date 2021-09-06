@@ -38,10 +38,10 @@ if TG_BOT_USER_NAME_BF_HER is not None:
         if query.startswith("alive") and event.query.user_id == me.id:
             buttons = [
                 [
-                    Button.url("Repo", "https://github.com/DARK-COBRA/DARKCOBRA"),
-                    Button.url("Deploy", "https://heroku.com/deploy?template=https://github.com/DARK-COBRA/DARKCOBRA/blob/master")],
-                    [Button.url("String", "https://repl.it/@Danish00/DarkCobra#main.py"),
-                    Button.url("Channel", "https://t.me/Dark_cobra_support"),
+                    Button.url("ʀᴇᴘᴏ", "https://github.com/Itsunknown-12/ZAID-USERBOT"),
+                    Button.url("ᴅᴇᴘʟᴏʏ", "https://heroku.com/deploy?template=https://github.com/Itsunknown-12/ZAID-USERBOT")],
+                    [Button.url("ꜱᴜᴘᴘᴏʀᴛ", "https://t.me/Zaid_Support"),
+                    Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/Zaid_Updates"),
                 ]
             ]
             if ALIVE_PHOTTO and ALIVE_PHOTTO.endswith((".jpg", ".png")):
