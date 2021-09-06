@@ -19,25 +19,25 @@ from platform import python_version, uname
 
 ALIVE_PIC = Config.ALIVE_PHOTTO
 if ALIVE_PIC is None:
-   ALIVE_PIC = "https://telegra.ph/file/8458f16bebf2b7f73baa8.jpg"
+   ALIVE_PIC = "https://telegra.ph/file/9e64778a6664e1793c91a.mp4"
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 
 ALIVE_MESSAGE = Config.ALIVE_MSG
 if ALIVE_MESSAGE is None:
-   ALIVE_MESSAGE = "**🔱DARK COBRA IS Awake🔱 \n\n\n**"
-   ALIVE_MESSAGE += "`My Bot Status \n\n\n`"
-   ALIVE_MESSAGE += f"`Telethon: TELETHON-1.19.0 \n\n`"
-   ALIVE_MESSAGE += f"`Python: PYTHON-3.8.5 \n\n`"
-   ALIVE_MESSAGE += "`I'll Be With You Master Till My Dyno Ends!!☠ \n\n`"
-   ALIVE_MESSAGE += f"`Support Channel` : @Dark_cobra_support \n\n"
-   ALIVE_MESSAGE += f"`MY BOSS🤗`: {DEFAULTUSER} \n\n "
+   ALIVE_MESSAGE = "**💦🅩🅐🅘🅓 🅑🅞🅣 🅘🅢 🅦🅞🅡🅚🅘🅝🅖👀 \n\n\n**"
+   ALIVE_MESSAGE += "`🅼🆈 🆂🆃🅰🆃🆄🆂 \n\n\n`"
+   ALIVE_MESSAGE += f"`ᴛᴇʟᴇᴛʜᴏɴ: TELETHON-1.20.0 \n\n`"
+   ALIVE_MESSAGE += f"`ᴘʏᴛʜᴏɴ: PYTHON-3.9.5 \n\n`"
+   ALIVE_MESSAGE += "`ᴛᴇʀᴀ ꜱᴀᴛʜ ɴʜɪ ᴄʜʜᴏʀᴜɴɢᴀ ᴠʀᴏ ᴛᴇɴꜱɪᴏɴ ᴍᴀᴛ ʟᴇ ʙᴀꜱꜱ ᴅʏɴᴏꜱ ᴅᴇᴋʜ ʟɪᴏ!!☠ \n\n`"
+   ALIVE_MESSAGE += f"`ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ` : @zaid_Support \n\n"
+   ALIVE_MESSAGE += f"`🅼🆈 🅼🅰🆂🆃🅴🆁🤗`: {DEFAULTUSER} \n\n "
                 
             
-#@command(outgoing=True, pattern="^.awake$")
-@borg.on(admin_cmd(pattern=r"awake"))
+#@command(outgoing=True, pattern="^.zaid$")
+@borg.on(admin_cmd(pattern=r"Zaid"))
 async def amireallyalive(awake):
-    """ For .awake command, check if the bot is running.  """
+    """ For .zaid command, check if the bot is running.  """
     await awake.delete() 
     await borg.send_file(awake.chat_id, ALIVE_PIC,caption=ALIVE_MESSAGE)
