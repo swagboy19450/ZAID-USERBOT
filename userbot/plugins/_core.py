@@ -92,7 +92,7 @@ async def unload(event):
         qwe = await eor(event, f"DarkCobra Has Successfully unloaded {shortname}")
     except Exception as e:
         await qwe.edit(
-            "Darkcobra has Successfully unloaded {shortname}\n{}".format(shortname, str(e))
+            "ᴢᴀɪᴅʙᴏᴛ has Successfully unloaded {shortname}\n{}".format(shortname, str(e))
         )
 
 
@@ -111,5 +111,5 @@ async def load(event):
         qwe = await eor(event, f"Successfully loaded {shortname}")
     except Exception as e:
         await qwe.edit(
-            f"DarkCobra could not load {shortname} because of the following error.\n{str(e)}"
+            f"ᴢᴀɪᴅʙᴏᴛ could not load {shortname} because of the following error.\n{str(e)}"
         )
