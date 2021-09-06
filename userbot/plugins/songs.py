@@ -1,10 +1,3 @@
-# plugin made by @hellboi_atul bug fixes by @Mrconfused 
-# Copyright (C) DARK COBRA 2020.
-# if you change these lines you are gay...bc fuck off!
-# leechers stay away😑...if you use this code without credit...u gay bitch fuck off...!
-
-
-
 import re
 import random
 from userbot import bot, CMD_HELP
@@ -65,7 +58,7 @@ async def _(event):
     except UserAlreadyParticipantError:
         pass
     except:
-        await event.reply("You need to join [this](https://t.me/joinchat/DdR2SUvJPBouSW4QlbJU4g) group for this module to work.", link_preview=False)
+        await event.reply("You need to join [this](https://t.me/zaid_team1) group for this module to work.", link_preview=False)
         return
     args = event.pattern_match.group(1)
     if not args:
