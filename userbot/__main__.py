@@ -29,7 +29,7 @@ else:
             "TG_BOT_TOKEN", api_id=Var.APP_ID, api_hash=Var.API_HASH
         ).start(bot_token=Var.TG_BOT_TOKEN_BF_HER)
         print("Initialised Sucessfully")
-        print("Starting Dark AI")
+        print("Starting Zaid Bot")
         bot.loop.run_until_complete(add_bot(Var.TG_BOT_USER_NAME_BF_HER))
         print("Startup Completed")
     else:
@@ -66,7 +66,7 @@ if LOAD_ASSISTANT == True:
 else:
     print("Assitant is Not Loading As U Have Disabled")
 
-print("DARK COBRA userbot AND YOUR ASSISTANT is Active Enjoy Join @DarkCobra_Support For Updates.")
+print("ZAID BLACK USERBOT AND YOUR ASSISTANT is Active Enjoy Join @Zaid_Updates For Updates.")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
