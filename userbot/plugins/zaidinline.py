@@ -1,3 +1,7 @@
+# ʟᴇ ʟᴏ ʙꜱᴅᴋ ᴛᴜᴍ ᴄʀᴇᴀᴅɪᴛꜱ ꜱᴀʟᴇ ɪᴛɴᴀ ɢᴀʟɪ ʟɪᴋʜᴇ ʜᴏ ᴛᴜᴍʜᴀʀɪ ᴍᴀᴀ ᴋɪ ᴊᴀʏ ʜᴏ .... 
+#ᴅᴀʀᴋʙᴏᴛ ʙᴜʀᴀ ᴍᴀᴛ ᴍᴀɴɪᴏ💦
+
+
 from math import ceil
 import asyncio
 import json
@@ -20,9 +24,9 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             if event.query.user_id == bot.uid :
                 current_page_number=0
                 dc = paginate_help(current_page_number, CMD_LIST, "helpme")
-                await event.edit("`>>>\n\nReopened The Main Menu of \n©DARKCOBRA` ", buttons=dc)
+                await event.edit("`>>>\n\n𝐫𝐞𝐨𝐩𝐞𝐧𝐞𝐝 𝐡𝐞𝐥𝐩 𝐦𝐞𝐧𝐮 \n©🆉🅰🅸🅳🅱🅾🆃` ", buttons=dc)
             else:
-                reply_pop_up_alert = "Please get your own Userbot,for more info visit @DARK_COBRA_SUPPORT!"
+                reply_pop_up_alert = "ᴘʟᴢ ᴍᴀᴋᴇ ᴜʀ ᴏᴡɴ ʙᴏᴛ ʏᴀ ɴʜɪ ᴀᴀᴛᴀ ᴛᴏʜ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴍ ᴀᴀ😂,  @Zaid_Support! 😎!"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
         
 
@@ -34,10 +38,10 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         if event.query.user_id == bot.uid and query.startswith("Userbot"):
             rev_text = query[::-1]
             dc = paginate_help(0, CMD_LIST, "helpme")
-            result = builder.article("© Dark Cobra Userbot Help",text="{}\nCurrently Loaded Plugins: {}".format(query, len(CMD_LIST)),buttons=dc,link_preview=False)
+            result = builder.article("🇿 🅑🅛🅐🅒🅚 🅤🅢🅔🅡🅑🅞🅣 🅗🅔🅛🅟",text="{}\n🅛🅞🅐🅓🅔🅓 🅟🅛🅤🅖🅘🅝: {}".format(query, len(CMD_LIST)),buttons=dc,link_preview=False)
             await event.answer([result] if result else None)
         else:
-              reply_pop_up_alert = "Please get your own Userbot😁😁,for more info visit @DARK_COBRA_SUPPORT! 😎😎"
+              reply_pop_up_alert = "ᴘʟᴢ ᴍᴀᴋᴇ ᴜʀ ᴏᴡɴ ʙᴏᴛ ʏᴀ ɴʜɪ ᴀᴀᴛᴀ ᴛᴏʜ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴍ ᴀᴀ😂,  @Zaid_Support! 😎"
               await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
     @tgbot.on(events.callbackquery.CallbackQuery(  # pylint:disable=E0602
         data=re.compile(b"helpme_next\((.+?)\)")
@@ -52,7 +56,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
           
             await event.edit(buttons=dc)
         else:
-            Cobra = "Please get your own Userbot, and don't use mine for more info visit @DARK_COBRA_SUPPORT!"
+            Cobra = "ᴘʟᴢ ᴍᴀᴋᴇ ᴜʀ ᴏᴡɴ ʙᴏᴛ ʏᴀ ɴʜɪ ᴀᴀᴛᴀ ᴛᴏʜ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴍ ᴀᴀ😂,  @Zaid_Support! 😎!"
             await event.answer(Cobra, cache_time=0, alert=True)
 
     @tgbot.on(events.callbackquery.CallbackQuery(  # pylint:disable=E0602
@@ -71,16 +75,16 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             
             await event.edit(buttons=dc)
         else:
-              TheDark = "Please get your own Userbot😁😁,for more info visit @DARK_COBRA_SUPPORT! 😎😎"
+              TheDark = "ᴘʟᴢ ᴍᴀᴋᴇ ᴜʀ ᴏᴡɴ ʙᴏᴛ ʏᴀ ɴʜɪ ᴀᴀᴛᴀ ᴛᴏʜ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴍ ᴀᴀ😂,  @Zaid_Support! ! 😄"
               await event.answer(TheDark, cache_time=0, alert=True)
  #hehehehehhehhehhehe   
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"close")))
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid:
-            danish = custom.Button.inline("◤✞ 𝕺𝖕𝖊𝖓 𝕸𝖆𝖎𝖓 𝕸𝖊𝖓𝖚 𝕬𝖌𝖆𝖎𝖓 ✞◥", data="open")
-            await event.edit("`Main Menu Has Been Closed`", buttons=danish)
+            danish = custom.Button.inline("✞ ᴏᴘᴇɴ ᴍᴀɪɴ ᴍᴇɴᴜ ᴀɢᴀɪɴ ✞", data="open")
+            await event.edit("`ᴍᴀɪɴ ᴍᴇɴᴜ ʜᴀꜱ ʙᴇᴇɴ ᴄʟᴏꜱᴇᴅ`", buttons=danish)
         else:
-            reply_pop_up_alert = "Please get your own Userbot😁😁,for more info visit @DARK_COBRA_SUPPORT! 😎😎"
+            reply_pop_up_alert = "ᴘʟᴢ ᴍᴀᴋᴇ ᴜʀ ᴏᴡɴ ʙᴏᴛ ʏᴀ ɴʜɪ ᴀᴀᴛᴀ ᴛᴏʜ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴍ ᴀᴀ😂,  @Zaid_Support! 😎!"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
    
 
@@ -92,43 +96,43 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     )
     async def on_plug_in_callback_query_handler(event):
         if not event.query.user_id == bot.uid:
-            atul= "Please get your own Userbot😁😁,for more info visit @DARK_COBRA_SUPPORT! 😎😎"
+            atul= "ᴘʟᴢ ᴍᴀᴋᴇ ᴜʀ ᴏᴡɴ ʙᴏᴛ ʏᴀ ɴʜɪ ᴀᴀᴛᴀ ᴛᴏʜ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴍ ᴀᴀ😂,  @Zaid_Support! 😎"
             await event.answer(atul, cache_time=0, alert=True)
             return
         plugin_name = event.data_match.group(1).decode("UTF-8")
         global shivam_sh1vam
         shivam_sh1vam="{}".format(plugin_name)
-        help_string = "Commands found in {}:\n".format(plugin_name)
-        k = "💠🔮💎"
+        help_string = "ᴄᴏᴍᴍᴀɴᴅꜱ ꜰᴏᴜɴᴅ ɪɴ {}:\n".format(plugin_name)
+        k = "😏🔮😈"
         u = 0
         for i in CMD_LIST[plugin_name]:
             u += 1
             help_string += str(k[u % 3]) + " " + i + "\n\n"
         if plugin_name in CMD_HELP:
             help_string += (
-                f"**📤 PLUGIN NAME 📤 :** `{plugin_name}` \n\n{CMD_HELP[plugin_name]}"
+                f"**ᴘʟᴜɢɪɴ ɴᴀᴍᴇ 💛:** `{plugin_name}` \n\n{CMD_HELP[plugin_name]}"
             )
         else:
             help_string += "😁"
 
         reply_pop_up_alert = help_string
         reply_pop_up_alert += (
-            "\n\n __Click on buttons below to load or unload them..report us if you find any bug__\n\n **©DARKCOBRA USERBOT**".format(plugin_name)
+            "\n\n __Click on buttons below to load or unload them..report us if you find any bug__\n\n **©ᴢᴀɪᴅ ꜱᴜᴘᴘᴏʀᴛ**".format(plugin_name)
         )
         try:
             if event.query.user_id == bot.uid :
-                dc = [custom.Button.inline(" 𝕭𝖆𝖈𝖐 ",data="back({})".format(shivam)),custom.Button.inline(" 𝕮𝖑𝖔𝖘𝖊 ", data="close"),custom.Button.inline(" 𝖀𝖓𝖑𝖔𝖆𝖉 ",data="unload({})".format(shivam_sh1vam))]
+                dc = [custom.Button.inline(" ʙᴀᴄᴋ ",data="back({})".format(shivam)),custom.Button.inline(" ᴄʟᴏꜱᴇ ", data="close"),custom.Button.inline(" ᴜɴʟᴏᴀᴅ ",data="unload({})".format(shivam_sh1vam))]
                 await event.edit(reply_pop_up_alert, buttons=dc)
             else:
-                reply_pop_up_alert = "Please get your own Userbot, and don't use mine for more info visit @DARK_COBRA_SUPPORT!"
+                reply_pop_up_alert = "ᴘʟᴢ ᴍᴀᴋᴇ ᴜʀ ᴏᴡɴ ʙᴏᴛ ʏᴀ ɴʜɪ ᴀᴀᴛᴀ ᴛᴏʜ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴍ ᴀᴀ😂 ᴀᴜʀ ᴍᴇʀᴇᴋᴏ ᴜɴɢʟɪ ᴍᴀᴛ ᴋᴀʀ ʜᴀʀᴀᴍɪ ʜᴜ ᴍ,  @Zaid_Support!"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)#hehe
         except: 
             if event.query.user_id == bot.uid :
-                sh1vam = [custom.Button.inline("◤✞ 𝕲𝖔 𝕭𝖆𝖈𝖐 ✞◥",data="back({})".format(shivam)),custom.Button.inline("◤✞ 𝕮𝖑𝖔𝖘𝖊 ✞◥", data="close")]
+                sh1vam = [custom.Button.inline("✞ ɢᴏ ʙᴀᴄᴋ ✞",data="back({})".format(shivam)),custom.Button.inline("✞ ᴄʟᴏꜱᴇ ✞", data="close")]
                 halps = "Do .help {} to get the list of commands.".format(plugin_name)
                 await event.edit(halps,buttons=sh1vam)
             else:
-                reply_pop_up_alert = "Please get your own Userbot, and don't use mine for more info visit @DARK_COBRA_SUPPORT!"
+                reply_pop_up_alert = "ᴘʟᴢ ᴍᴀᴋᴇ ᴜʀ ᴏᴡɴ ʙᴏᴛ ʏᴀ ɴʜɪ ᴀᴀᴛᴀ ᴛᴏʜ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴍ ᴀᴀ😂 ᴀᴜʀ ᴍᴇʀᴇᴋᴏ ᴜɴɢʟɪ ᴍᴀᴛ ᴋᴀʀ ʜᴀʀᴀᴍɪ ʜᴜ ᴍ,  @Zaid_Support!"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"load\((.+?)\)")))
    
@@ -136,14 +140,14 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
               if event.query.user_id == bot.uid :
                                        
                     try:
-                        fcix = [custom.Button.inline("  𝕭𝖆𝖈𝖐 ",data="back({})".format(shivam)),custom.Button.inline(" 𝕮𝖑𝖔𝖘𝖊 ", data="close"),custom.Button.inline(" 𝖀𝖓𝖑𝖔𝖆𝖉 ",data="unload({})".format(shivam_sh1vam))]
+                        fcix = [custom.Button.inline("  ʙᴀᴄᴋ ",data="back({})".format(shivam)),custom.Button.inline(" 𝕮𝖑𝖔𝖘𝖊 ", data="close"),custom.Button.inline(" ᴜɴʟᴏᴀᴅ ",data="unload({})".format(shivam_sh1vam))]
                         load_module(event.data_match.group(1).decode("UTF-8"))# kyu sir kang krne m musil aa rhi h kya ... Bolo help kr du kya 😂😂😂
-                        await event.edit( "`Your DarkCobra Has Successfully loaded` >>>" + str(event.data_match.group(1).decode("UTF-8")),buttons=fcix)
+                        await event.edit( "`Your ᴢᴀɪᴅ ʙᴏᴛ Has Successfully loaded` >>>" + str(event.data_match.group(1).decode("UTF-8")),buttons=fcix)
                     except Exception as e:
                         await event.edit("Error{}".format(shortname, str(e))+ "DarkCobra Has Successfully loaded" + str(event.data_match.group(1).decode("UTF-8")),buttons=fcix)
               else:
                     shortname = event.data_match.group(1).decode("UTF-8")
-                    fcix = [custom.Button.inline("  𝕭𝖆𝖈𝖐 ",data="back({})".format(shivam)),custom.Button.inline(" 𝕮𝖑𝖔𝖘𝖊 ", data="close"),custom.Button.inline(" 𝖀𝖓𝖑𝖔𝖆𝖉 ",data="unload({})".format(shivam_sh1vam))]
+                    fcix = [custom.Button.inline("  𝕭𝖆𝖈𝖐 ",data="back({})".format(shivam)),custom.Button.inline(" 𝕮𝖑𝖔𝖘𝖊 ", data="close"),custom.Button.inline(" ᴜʟɴʟᴏᴀᴅ ",data="unload({})".format(shivam_sh1vam))]
                     reply_pop_up_alert = "Please get your own Userbot,for more info visit @DARK_COBRA_SUPPORT!"
                     await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"unload\((.+?)\)")))
@@ -153,15 +157,15 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                     
                     
                     try:
-                        fcix = [custom.Button.inline(" 𝕭𝖆𝖈𝖐 ",data="back({})".format(shivam)),custom.Button.inline(" 𝕮𝖑𝖔𝖘𝖊 ", data="close"),custom.Button.inline(" 𝕷𝖔𝖆𝖉 ",data="load({})".format(shivam_sh1vam))]
+                        fcix = [custom.Button.inline(" ʙᴀᴄᴋ ",data="back({})".format(shivam)),custom.Button.inline(" ᴄʟᴏꜱᴇ ", data="close"),custom.Button.inline(" 𝕷𝖔𝖆𝖉 ",data="load({})".format(shivam_sh1vam))]
                         remove_plugin(event.data_match.group(1).decode("UTF-8"))#kyu sir kang krne m muskil ho rhi h kya bologe toh help krdu 😂😂
-                        await event.edit( "`Your DarkCobra Has Successfully unloaded` >>>" + str(event.data_match.group(1).decode("UTF-8")),buttons=fcix)
+                        await event.edit( "`Your ᴢᴀɪᴅ ʙᴏᴛ Has Successfully unloaded` >>>" + str(event.data_match.group(1).decode("UTF-8")),buttons=fcix)
                     except Exception as e:
-                        await event.edit("Error{}".format(shortname, str(e)) +"DarkCobra Has Successfully unloaded"+ str(event.data_match.group(1).decode("UTF-8")),buttons=fcix)
+                        await event.edit("Error{}".format(shortname, str(e)) +"ᴢᴀɪᴅ ʙᴏᴛ Has Successfully unloaded"+ str(event.data_match.group(1).decode("UTF-8")),buttons=fcix)
               else:
                     shortname = event.data_match.group(1).decode("UTF-8")
-                    fcix = [custom.Button.inline("  𝕭𝖆𝖈𝖐 ",data="back({})".format(shivam)),custom.Button.inline(" 𝕮𝖑𝖔𝖘𝖊 ", data="close"),custom.Button.inline(" 𝕷𝖔𝖆𝖉 ",data="load({})".format(shivam_sh1vam))]
-                    reply_pop_up_alert = "Please get your own Userbot,for more info visit @DARK_COBRA_SUPPORT!"
+                    fcix = [custom.Button.inline("  ʙᴀᴄᴋ ",data="back({})".format(shivam)),custom.Button.inline(" ᴄʟᴏꜱᴇ ", data="close"),custom.Button.inline(" 𝕷𝖔𝖆𝖉 ",data="load({})".format(shivam_sh1vam))]
+                    reply_pop_up_alert = "ᴘʟᴢ ᴍᴀᴋᴇ ᴜʀ ᴏᴡɴ ʙᴏᴛ ʏᴀ ɴʜɪ ᴀᴀᴛᴀ ᴛᴏʜ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴍ ᴀᴀ😂 ᴀᴜʀ ᴍᴇʀᴇᴋᴏ ᴜɴɢʟɪ ᴍᴀᴛ ᴋᴀʀ ʜᴀʀᴀᴍɪ ʜᴜ ᴍ,  @Zaid_Support!"
                     await event.answer(reply_pop_up_alert, cache_time=0, alert=True)#hehehe
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"back\((.+?)\)")))
    
@@ -171,12 +175,12 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                 try:
                     current_page_number = int(event.data_match.group(1).decode("UTF-8"))
                     buttons = paginate_help(current_page_number-2, CMD_HELP, "helpme")
-                    await event.edit("`>>> Here Is The Main Menu of\n\n©DARKCOBRA`", buttons=buttons)
+                    await event.edit("`>>> ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ᴘʟᴜɢɪɴꜱ ꜰᴏʀ\n\n©ᴢᴀɪᴅʙᴏᴛ`", buttons=buttons)
                 except:
                     buttons = paginate_help(0, CMD_HELP, "helpme")
                     await event.edit("`>>> Here Is The Main Menu Of\n\n©DARKCOBRA`", buttons=buttons)
             else:
-                reply_pop_up_alert = "Please get your own Userbot,for more info visit @DARK_COBRA_SUPPORT!"
+                reply_pop_up_alert = "ᴘʟᴢ ᴍᴀᴋᴇ ᴜʀ ᴏᴡɴ ʙᴏᴛ ʏᴀ ɴʜɪ ᴀᴀᴛᴀ ᴛᴏʜ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴍ ᴀᴀ😂 ᴀᴜʀ ᴍᴇʀᴇᴋᴏ ᴜɴɢʟɪ ᴍᴀᴛ ᴋᴀʀ ʜᴀʀᴀᴍɪ ʜᴜ ᴍ,  @Zaid_Support!"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
 def paginate_help(page_number, loaded_plugins, prefix):
@@ -202,9 +206,9 @@ def paginate_help(page_number, loaded_plugins, prefix):
     if len(pairs) > number_of_rows:
         pairs = pairs[modulo_page * number_of_rows:number_of_rows * (modulo_page + 1)] + \
             [
-            (custom.Button.inline("•PREVIOUS•", data="{}_prev({})".format(prefix, modulo_page)),
-             custom.Button.inline("•CLOSE•", data="close"),
-             custom.Button.inline("•NEXT•", data="{}_next({})".format(prefix, modulo_page)))
+            (custom.Button.inline("👈ʙᴀᴄᴋ•", data="{}_prev({})".format(prefix, modulo_page)),
+             custom.Button.inline("•ᴄʟᴏꜱᴇ•", data="close"),
+             custom.Button.inline("•ɴᴇxᴛ👉", data="{}_next({})".format(prefix, modulo_page)))
         ]
     return pairs
 
