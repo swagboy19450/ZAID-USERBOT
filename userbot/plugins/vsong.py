@@ -1,7 +1,3 @@
-# Plugin made by @hellboi_atul and bug fixes By Shivam Patel(Team Cobra)
-# Give credits... Dont remove or edit these lines
-# uses ytdl 
-# made for DARK COBRA userbot..
 import os
 import time
 import math
@@ -83,7 +79,7 @@ def time_formatter(milliseconds: int) -> str:
 
 
 
-@borg.on(admin_cmd(pattern="vsong (.*)"))
+@borg.on(admin_cmd(pattern="video (.*)"))
 async def download_video(v_url):  
     pro = v_url ; sender = await pro.get_sender() ; me = await pro.client.get_me()
     pro1 = v_url.text
