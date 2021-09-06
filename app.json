@@ -1,7 +1,7 @@
 {
-  "name": "𝔻𝔸ℝ𝕂 ℂ𝕆𝔹ℝ𝔸",
-  "description": "The best and most awaited userbot made by hellboi_atul and modified by Jarvis userbot's owner(@Sppidy) Made with ❤ For Support Join @Dark_cobra_support ",
-  "logo": "https://telegra.ph/file/00f47c54ceda3944dc47c.jpg ",
+  "name": "ᴢᴀɪᴅ ᴜꜱᴇʀʙᴏᴛ",
+  "description": "ᴀ ʙᴇꜱᴛ ᴀɴᴅ ꜰᴀꜱᴛᴇꜱᴛ ᴜꜱᴇʀʙᴏᴛ ᴏʀ ᴀʟꜱᴏ ᴋɴᴏᴡɴ ᴀꜱ ʜɪꜱ ꜱᴍᴏᴛʜɴᴇꜱꜱ  ",
+  "logo": "https://telegra.ph/file/715372bea81d37c2cc90b.jpg",
     "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/DARK-COBRA/DARKCOBRA/",
-  "website": "https://github.com/DARK-COBRA/DARKCOBRA/",
-  "success_url": "https://t.me/Dark_cobra_support",
+  "repository": "https://github.com/Itsunknown-12/ZAID-USERBOT",
+  "website": "https://github.com/Itsunknown-12/ZAID-USERBOT",
+  "success_url": "@zaid_team1",
   "stack": "container",
   "env": {
     "ENV": {
@@ -31,7 +31,7 @@
 
     "ALIVE_NAME": {
       "description": "Fill your Full name or Username like @hellboi_atul.",
-      "value": "",
+      "value": "@Zaid_Support",
       "required": true
     },
     "AUTONAME": {
@@ -41,17 +41,17 @@
     },
     "ALIVE_MSG": {
       "description": "Set Custom awake Message When entering .awake command.",
-      "value": "",
+      "value": "ʅҽɠҽɳԃɾყ σϝ ʂɱσƚԋҽɾ ȥαιԃ υʂҽɾႦσƚ",
       "required": true
     },
     "ALIVE_PHOTTO": {
       "description": "Let it be what it is(skip)..or you can change the link according to your convince..this link is useful for `.awake` command.",
-      "value": "https://telegra.ph/file/0d0fafe17acca1c51b42d.jpg",
+      "value": "https://telegra.ph/file/9e64778a6664e1793c91a.mp4",
       "required": true
     },
     "DEFAULT_BIO": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "",
+      "value": "ʅҽɠҽɳԃɾყ σϝ ϝαʂƚҽɾ ȥαιԃ υʂҽɾႦσƚ",
       "required": false
     },
     "PMPERMIT_PIC": {
@@ -119,22 +119,12 @@
        "value": ""
     }, 
     "STRING_SESSION": {
-      "description": "Get this value by running https://darkcobra.crazycreatorr.repl.run/ ",
+      "description": "Get this value by turmux and Refer To repo ",
       "value": "",
       "required": true
     },
     "GITHUB_ACCESS_TOKEN": {
       "description": "Your Github Access Token for gitcommit plugin.Google 'Github access token' to find.",
-      "value": "",
-      "required": false
-    },
-    "GIT_REPO_NAME": {
-      "description": "Your repo name Example: hellboi-atul/hellboi-atul, but GITHUB_ACCESS_TOKEN must be setup first.",
-      "value": "",
-      "required": false
-    },
-    "LYDIA_API_KEY": {
-      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
       "value": "",
       "required": false
     },
@@ -189,7 +179,7 @@
     },
     "EMOJI_TO_DISPLAY_IN_HELP": {
       "description": "Set The emojies You Want to Add In Help Command You Can Add Multiple Emojies too!!",
-      "value": "📨",
+      "value": "🅩",
       "required": true
     },
     "SUDO_USERS": {
@@ -201,11 +191,6 @@
       "description": "Required for Correct Time for autopic get from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
       "value": "Asia/Kolkata",
       "required": false
-    },
-    "REDIRECTCHANNEL": {
-      "description": "Put You Channel Username Reflecting Your Info or Your Tags Etc",
-      "value": "",
-      "required": false 
     }
   },
   "addons": [
