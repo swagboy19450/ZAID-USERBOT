@@ -119,7 +119,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             help_string += str(k[u % 3]) + " " + i + "\n\n"
         if plugin_name in CMD_HELP:
             help_string += (
-                f"**😁 ᴘʟᴜɢɪɴ ɴᴀᴍᴇ 📤 :** `{plugin_name}` \n\n{CMD_HELP[plugin_name]}"
+                f"**😁 ᴘʟᴜɢɪɴ ɴᴀᴍᴇ 😈 :** `{plugin_name}` \n\n{CMD_HELP[plugin_name]}"
             )
         else:
             help_string += "😁"
@@ -130,7 +130,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         )
         try:
             if event.query.user_id == bot.uid :
-                dc = [custom.Button.inline(" ʙᴀᴄᴋ ",data="back({})".format(shivam)),custom.Button.inline(" ᴄʟᴏꜱᴇ ", data="close"),custom.Button.inline(" 𝖀𝖓𝖑𝖔𝖆𝖉 ",data="unload({})".format(shivam_sh1vam))]
+                dc = [custom.Button.inline(" ʙᴀᴄᴋ ",data="back({})".format(shivam)),custom.Button.inline(" ᴄʟᴏꜱᴇ ", data="close"),custom.Button.inline(" ᴜɴʟᴏᴀᴅ ",data="unload({})".format(shivam_sh1vam))]
                 await event.edit(reply_pop_up_alert, buttons=dc)
             else:
                 reply_pop_up_alert = "ᴘʟᴢ ᴍᴀᴋᴇ ᴜʀ ᴏᴡɴ ʙᴏᴛ ɴʜɪ ᴀᴀᴛᴀ ᴛᴏʜ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴍ ᴀᴀ ᴀᴜʀ ᴜɴɢʟɪ ɴᴏɪ ᴋᴀʀ @ᴢᴀɪᴅ_ꜱᴜᴘᴘᴏʀᴛ!"
@@ -168,14 +168,14 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                     
                     
                     try:
-                        fcix = [custom.Button.inline(" ʙᴀᴄᴋ ",data="back({})".format(shivam)),custom.Button.inline(" ᴄʟᴏꜱᴇ ", data="close"),custom.Button.inline(" 𝕷𝖔𝖆𝖉 ",data="load({})".format(shivam_sh1vam))]
+                        fcix = [custom.Button.inline(" ʙᴀᴄᴋ ",data="back({})".format(shivam)),custom.Button.inline(" ᴄʟᴏꜱᴇ ", data="close"),custom.Button.inline(" ʟᴏᴀᴅ ",data="load({})".format(shivam_sh1vam))]
                         remove_plugin(event.data_match.group(1).decode("UTF-8"))#kyu sir kang krne m muskil ho rhi h kya bologe toh help krdu 😂😂
-                        await event.edit( "`Your DarkCobra Has Successfully unloaded` >>>" + str(event.data_match.group(1).decode("UTF-8")),buttons=fcix)
+                        await event.edit( "`Your ZaidBot Has Successfully unloaded` >>>" + str(event.data_match.group(1).decode("UTF-8")),buttons=fcix)
                     except Exception as e:
                         await event.edit("Error{}".format(shortname, str(e)) +"DarkCobra Has Successfully unloaded"+ str(event.data_match.group(1).decode("UTF-8")),buttons=fcix)
               else:
                     shortname = event.data_match.group(1).decode("UTF-8")
-                    fcix = [custom.Button.inline("  ʙᴀᴄᴋ ",data="back({})".format(shivam)),custom.Button.inline(" ᴄʟᴏꜱᴇ ", data="close"),custom.Button.inline(" 𝕷𝖔𝖆𝖉 ",data="load({})".format(shivam_sh1vam))]
+                    fcix = [custom.Button.inline("  ʙᴀᴄᴋ ",data="back({})".format(shivam)),custom.Button.inline(" ᴄʟᴏꜱᴇ ", data="close"),custom.Button.inline(" ʟᴏᴀᴅ ",data="load({})".format(shivam_sh1vam))]
                     reply_pop_up_alert = "Please get your own Userbot,for more info visit @DARK_COBRA_SUPPORT!"
                     await event.answer(reply_pop_up_alert, cache_time=0, alert=True)#hehehe
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"back\((.+?)\)")))
