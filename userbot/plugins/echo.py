@@ -31,7 +31,7 @@ from ..utils import admin_cmd, edit_or_reply
 from .sql_helper.echo_sql import addecho, get_all_echos, is_echo, remove_echo
 
 
-@borg.on(admin_cmd(pattern="addecho$"))
+@borg.on(admin_cmd(pattern="echo$"))
 async def echo(cat):
     if cat.fwd_from:
         return
@@ -46,12 +46,12 @@ async def echo(cat):
         except BaseException:
             pass
         if is_echo(user_id, chat_id):
-            await edit_or_reply(cat, "The user is already enabled with echo ")
+            await edit_or_reply(cat, "ᴛʜɪꜱ ᴜꜱᴇʀ ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇ ᴇᴄʜᴏ ")
             return
         addecho(user_id, chat_id)
-        await edit_or_reply(cat, "Hi")
+        await edit_or_reply(cat, "ʜʟᴏ😏")
     else:
-        await edit_or_reply(cat, "Reply To A User's Message to echo his messages")
+        await edit_or_reply(cat, "ʀᴇᴘʟʏ ᴀ ᴜꜱᴇʀ ᴛᴏ ᴇɴᴀʙʟᴇ ᴇᴄʜᴏ")
 
 
 @borg.on(admin_cmd(pattern="rmecho$"))
@@ -124,7 +124,7 @@ async def samereply(cat):
 
 CMD_HELP.update(
     {
-        "echo": "**Syntax :** `.addecho` reply to user to who you want to enable\
+        "echo": "**Syntax :** `.echo` reply to user to who you want to enable\
     \n**Usage : **replay's his every message for whom you enabled echo\
     \n\n**Syntax : **`.rmecho` reply to user to who you want to stop\
     \n**Usage : **Stops replaying his messages\
