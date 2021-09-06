@@ -88,7 +88,7 @@ async def _(event):
     if event.fwd_from:
         return
     fname = f"{DEFAULTUSER}"
-    lname = f"{DARKCOBRA}"
+    lname = f"ᴢᴀɪᴅ"
     bio = f"{DEFAULTUSERBIO}"
     n = 1
     await borg(functions.photos.DeletePhotosRequest(await event.client.get_profile_photos("me", limit= n)))    
