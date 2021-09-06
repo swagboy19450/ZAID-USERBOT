@@ -19,16 +19,16 @@ from telethon.tl.types import InputStickerSetID
 from telethon.tl.types import DocumentAttributeSticker
 
 KANGING_STR = [
-    "Using Witchery to kang this sticker...",
-    "Plagiarising hehe...",
-    "Inviting this sticker over to my pack...",
-    "Kanging this sticker...",
-    "Hey that's a nice sticker!\nMind if I kang?!..",
-    "hehe me stel ur stikér\nhehe.",
-    "Ay look over there (☉｡☉)!→\nWhile I kang this...",
-    "Roses are red violets are blue, kanging this sticker so my pacc looks cool",
-    "Imprisoning this sticker...",
-    "Mr.Steal Your Sticker is stealing this sticker... ",
+    "ᴜꜱɪɴɢ ᴡɪᴛᴄʜᴇʀʏ ᴛᴏ ᴋᴀɴɢ ᴛʜɪꜱ ꜱᴛɪᴄᴋᴇʀ...",
+    "ᴜᴅʜᴀʀ ᴅᴇᴋʜ ᴀᴜʀ ᴍᴇʀᴇᴋᴏ ꜱᴛɪᴄᴋᴇʀ ᴄʜᴜʀᴀɴᴇ ᴅᴇ..",
+    "ɪɴᴠɪᴛɪɴɢ ᴛʜɪꜱ ꜱᴛɪᴄᴋᴇʀ ᴏᴠᴇʀ ᴛᴏ ᴍʏ ᴘᴀᴄᴋ...",
+    "ᴋᴀɴɢɪɴɢ ᴛʜɪꜱ ꜱᴛɪᴄᴋᴇʀ...",
+    "ʜᴇʏ ᴛʜᴀᴛ'ꜱ ᴀ ɴɪᴄᴇ ꜱᴛɪᴄᴋᴇʀ!\ɴᴍɪɴᴅ ɪꜰ ɪ ᴋᴀɴɢ?!..",
+    "ʜᴇʜᴇ ᴍᴇ ꜱᴛᴇʟ ᴜʀ ꜱᴛɪᴋéʀ\ɴʜᴇʜᴇ.",
+    "ᴀʏ ʟᴏᴏᴋ ᴏᴠᴇʀ ᴛʜᴇʀᴇ (☉｡☉)!→\ɴᴡʜɪʟᴇ ɪ ᴋᴀɴɢ ᴛʜɪꜱ...",
+    "ʀᴏꜱᴇꜱ ᴀʀᴇ ʀᴇᴅ ᴠɪᴏʟᴇᴛꜱ ᴀʀᴇ ʙʟᴜᴇ, ᴋᴀɴɢɪɴɢ ᴛʜɪꜱ ꜱᴛɪᴄᴋᴇʀ ꜱᴏ ᴍʏ ᴘᴀᴄᴄ ʟᴏᴏᴋꜱ ᴄᴏᴏʟ",
+    "ɪᴍᴘʀɪꜱᴏɴɪɴɢ ᴛʜɪꜱ ꜱᴛɪᴄᴋᴇʀ...",
+    "ᴍʀ.ꜱᴛᴇᴀʟ ʏᴏᴜʀ ꜱᴛɪᴄᴋᴇʀ ɪꜱ ꜱᴛᴇᴀʟɪɴɢ ᴛʜɪꜱ ꜱᴛɪᴄᴋᴇʀ... ",
 ]
 
 
