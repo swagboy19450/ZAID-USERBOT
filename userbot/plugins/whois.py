@@ -133,7 +133,7 @@ async def get_full_user(event):
     return None, "No input is found"
 
 
-@borg.on(admin_cmd(pattern="whois(?: |$)(.*)"))
+@borg.on(admin_cmd(pattern="info(?: |$)(.*)"))
 async def who(event):
     cat = await edit_or_reply(
         event, "`Sit tight while I steal some data from This guuyyy...`"
@@ -231,18 +231,18 @@ async def fetch_info(replied_user, event):
     )
     username = "@{}".format(username) if username else ("This User has no Username")
     user_bio = "This User has no About" if not user_bio else user_bio
-    caption = "<b>USER INFO from DARK COBRA's database :</b>\n\n"
-    caption += f"👤First Name: {first_name} {last_name}\n"
-    caption += f"🤵Username: {username}\n"
-    caption += f"🔖ID: <code>{user_id}</code>\n"
-    caption += f"🌏Data Centre ID: {dc_id}\n"
-    caption += f"🖼Number of Profile Pics: {replied_user_profile_photos_count}\n"
-    caption += f"🤖Is Bot: {is_bot}\n"
-    caption += f"🔏Is Restricted: {restricted}\n"
-    caption += f"🌐Is Verified by Telegram: {verified}\n\n"
-    caption += f"✍️Bio: \n<code>{user_bio}</code>\n\n"
-    caption += f"👥Common Chats with this user: {common_chat}\n"
-    caption += f"🔗Permanent Link To Profile: "
+    caption = "<b>🅤🅢🅔🅡 🅘🅝🅕🅞🅡🅜🅐🅣🅘🅞🅝 :</b>\n\n"
+    caption += f"👤ꜰɪʀꜱᴛ ɴᴀᴍᴇ: {first_name} {last_name}\n"
+    caption += f"🤵ꜱᴜʀɴᴀᴍᴇ: {username}\n"
+    caption += f"🔖ᴛɢ ɪᴅ: <code>{user_id}</code>\n"
+    caption += f"🌏ᴅᴀᴛᴀ ᴄᴇɴᴛʀᴇ ɪᴅ: {dc_id}\n"
+    caption += f"😨ᴛᴏᴛᴀʟ ᴘʀᴏꜰɪʟᴇ ᴘɪᴄꜱ: {replied_user_profile_photos_count}\n"
+    caption += f"🤖ɪꜱ ʙᴏᴛ: {is_bot}\n"
+    caption += f"🔏ɪᴅ ʀᴇꜱɪꜱᴅᴇɴᴄᴇ: {restricted}\n"
+    caption += f"🌐ᴠᴇʀɪꜰɪᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ᴜꜱᴇʀ: {verified}\n\n"
+    caption += f"✍️ʙɪᴏ: \n<code>{user_bio}</code>\n\n"
+    caption += f"👥ᴄᴏᴍᴍᴏɴ ᴄʜᴀᴛꜱ: {common_chat}\n"
+    caption += f"🔗🅿🆁🅾🅵🅸🅻🅴 🅻🅸🅽🅺: "
     caption += f'<a href="tg://user?id={user_id}">{first_name}</a>'
     return photo, caption
 
