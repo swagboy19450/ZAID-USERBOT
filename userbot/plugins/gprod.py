@@ -63,7 +63,7 @@ async def gben(userbot):
     i = 0
     sender = await dc.get_sender()
     me = await userbot.client.get_me()
-    await dark.edit("`promoting...`")
+    await dark.edit("`ᴘʀᴏᴍᴏᴛɪɴɢ..ᴇɴᴊᴏʏ ᴋᴀʀ.`")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
     await userbot.get_chat()
@@ -77,13 +77,13 @@ async def gben(userbot):
     except:
         pass
     if me == user:
-       k = await dark.edit("U want to promote urself 😑😑 waao..")
+       k = await dark.edit("ʜᴀʜᴀ ʙꜱᴅᴋ ᴋʜᴜᴅ ꜱᴇ ʜᴏɴᴀ ʀʜᴛᴀ ᴛᴏʜ 😑😑 waao..")
        return
     try:
         if not rank:
             rank = "ㅤㅤ"
     except:
-        return await dark.edit(f"**Something W3NT Wrong 🤔**")
+        return await dark.edit(f"**ꜱᴏᴍᴛʜɪɴɢ ᴡᴇᴍᴛ ᴡʀᴏɴɢ 🤔**")
     if user:
         telchanel = [d.entity.id
                      for d in await userbot.client.get_dialogs()
@@ -99,13 +99,13 @@ async def gben(userbot):
           try:
              await userbot.client(EditAdminRequest(x, user, rgt, rank))
              i += 1
-             await dark.edit(f"**Promoted in Chats **: `{i}`")
+             await dark.edit(f"**ꜱᴏɴ ᴘʀᴏᴍᴏᴛᴇᴅ ɪɴ ᴄʜᴀᴛꜱ **: `{i}`")
           except:
              pass
     else:
-        await dark.edit(f"**Reply to a user you dumbo !!**")
+        await dark.edit(f"**ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀꜱ !!**")
     return await dark.edit(
-        f"**Globally promoted [{user.first_name}](tg://user?id={user.id})\n On Chats😏 : {i} **"
+        f"**ꜱᴏɴ ʜᴀꜱ ʙᴇᴇɴ ᴘʀᴏᴍᴏᴛᴇᴅ ꜱᴜᴄᴇꜱꜱꜰᴜʟʟʏ [{user.first_name}](tg://user?id={user.id})\n ᴏɴ ᴄʜᴀᴛꜱ😹 : {i} **"
     )
 @borg.on(admin_cmd(pattern="gdemote ?(.*)"))
 async def gben(userbot):
@@ -127,13 +127,13 @@ async def gben(userbot):
     except:
         pass
     if me == user:
-       k = await dark.edit("U want to demote urself 😑😑 waao..")
+       k = await dark.edit("ʟᴏʟ ᴋʜᴜᴅ ᴋᴏ 😑😑 waao..")
        return
     try:
         if not rank:
             rank = "ㅤㅤ"
     except:
-        return await dark.edit(f"**Something W3NT Wrong 🤔**")
+        return await dark.edit(f"**ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇᴍᴛ ᴡʀᴏɴɢ 🤔**")
     if user:
         telchanel = [d.entity.id
                      for d in await userbot.client.get_dialogs()
@@ -149,12 +149,12 @@ async def gben(userbot):
           try:
              await userbot.client(EditAdminRequest(x, user, rgt, rank))
              i += 1
-             await dark.edit(f"**Demoted in Chats **: `{i}`")
+             await dark.edit(f"**ʙᴀʜᴜᴛ ᴜʀʀ ʟɪᴀ ʙᴇᴛᴀ ᴀʙ ᴊᴀᴍᴇᴇɴ ᴘᴇ ᴀᴀ ᴏɴ ᴄʜᴀᴛꜱ **: `{i}`")
           except:
              pass
     else:
-        await dark.edit(f"**Reply to a user you dumbo !!**")
+        await dark.edit(f"**ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ !!**")
     return await dark.edit(
-        f"**Globally Demoted [{user.first_name}](tg://user?id={user.id})\n On Chats😏 : {i} **"
+        f"**ᴊᴀᴍᴇᴇɴ ᴘᴇ ʟᴀɴᴅᴇᴅ ꜱᴜᴄᴇꜱꜱꜰᴜʟʟʏ [{user.first_name}](tg://user?id={user.id})\n ᴏɴ ᴄʜᴀᴛꜱ🔥 : {i} **"
     )
 #made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam#made by @danish_00 with sh1vam
