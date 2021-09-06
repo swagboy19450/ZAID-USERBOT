@@ -41,9 +41,10 @@ async def hmm(yes):
     pm_caption += "**ʜᴇʜᴇ ᴠʀᴏ, ᴍᴇ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ...**\n\n"
     pm_caption += "✘ ᴀʙᴏᴜᴛ ᴍʏ ꜱʏꜱᴛᴇᴍ ✘\n\n"
     pm_caption += f"➾ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ {version.__version__}\n"
-    pm_caption += "➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴢᴀɪᴅ ꜱᴜᴘᴘᴏʀᴛ](https://t.me/Zaid_Support)\n"
-    pm_caption += "➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [ᴢᴀɪᴅ ʟɪᴄᴇɴꜱᴇ](https://github.com/Itsunknown-12/ZAID-USERBOT)\n"
-    pm_caption += "➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [ᴢᴀɪᴅ ᴜꜱᴇʀʙᴏᴛ](https://github.com/Itsunknown-12/ZAID-USERBOT)\n\n"
+    pm_caption += "➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ꜱᴜᴘᴘᴏʀᴛ](https://t.me/Zaid_Support)\n"
+    pm_caption += "➾ **ᴄʜᴀɴɴᴇʟ** ☞ [ᴢᴀɪᴅ](https://t.me/Zaid_Updates)\n"
+    pm_caption += "➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [ᴢᴀɪᴅ ʟɪᴄᴇɴꜱᴇ](https://github.com/Itsunknown-12/ZAIDUSERBOT)\n"
+    pm_caption += "➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [ᴢᴀɪᴅ ᴜꜱᴇʀʙᴏᴛ](https://github.com/Itsunknown-12/ZAIDUSERBOT)\n\n"
     pm_caption += f"➾ **ᴜᴘᴛɪᴍᴇ** ☞ {uptime}\n\n"
     pm_caption += f"➾ **🅼🆈 🅼🅰🆂🆃🅴🆁** ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
     on = await borg.send_file(yes.chat_id, file=file1,caption=pm_caption)
