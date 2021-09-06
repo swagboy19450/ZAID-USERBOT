@@ -42,7 +42,7 @@ async def update_requirements():
 async def upstream(ups):
     "For .update command, check if the bot is up to date, update if specified"
     conf = ups.pattern_match.group(1)
-    await ups.edit("Checking for updates, please wait....")
+    await ups.edit("ᴢᴀɪᴅ ᴄʜᴇᴄᴋɪɴɢ ɴᴇᴡ ᴜᴘᴅᴀᴛᴇꜱ, ᴘʟᴢ ᴡᴀɪᴍᴛ....")
     off_repo = UPSTREAM_REPO_URL
     force_update = False
     try:
@@ -59,7 +59,7 @@ async def upstream(ups):
         return
     except InvalidGitRepositoryError as error:
         if conf != "now":
-            await ups.edit(f"**Hey ßoss!!!**😁😁\n__To get the Latest update of__ \n@Zaid_Updates\n\n do |`.update now`| 😎😎 ")
+            await ups.edit(f"**🄷🄴🅈 🄼🄰🅂🅃🄴🅁!!!**😁😁\n__To get the Latest update of__ \n@Zaid_Updates\n\n do |`.update now`| 😎😎 ")
             return
         repo = Repo.init()
         origin = repo.create_remote('upstream', off_repo)
@@ -86,7 +86,7 @@ async def upstream(ups):
     changelog = await gen_chlog(repo, f'HEAD..upstream/{ac_br}')
     if not changelog and not force_update:
         await ups.edit(
-            f'\n**{ac_br} master your bot is already up to date..**\n')
+            f'\n**{ac_br} ɴᴏᴛʜɪɴɢ ɴᴏᴡ ꜰᴏʀ ᴜᴘᴅᴀᴛᴇꜱ ..**\n')
         repo.__del__()
         return
     if conf != "now" and not force_update:
@@ -104,12 +104,12 @@ async def upstream(ups):
             remove("output.txt")
         else:
             await ups.edit(changelog_str)
-        await ups.respond("do `.update now` to update")
+        await ups.respond("ᴅᴏ `update now` ᴛᴏ ᴜᴘᴅᴀᴛᴇ")
         return
     if force_update:
         await ups.edit('Force-Syncing to latest stable userbot code, please wait master...😅😅')
     else:
-        await ups.edit('`Updating userbot, please wait....you arey best boss🤗😇')
+        await ups.edit('`ᴜᴘᴅᴀᴛɪɴɢ ᴢᴀɪᴅ ᴜꜱᴇʀʙᴏᴛ, ᴘʟᴢ ᴡᴀɪᴍᴛ....ᴜ ᴍʏ ᴍᴀꜱᴛᴇʀ ᴏᴘ🤗😇')
     if HEROKU_API_KEY is not None:
         import heroku3
         heroku = heroku3.from_key(HEROKU_API_KEY)
@@ -148,7 +148,7 @@ async def upstream(ups):
             await asyncio.sleep(1)
             await ups.edit("`⬛⬛⬛⬛ \n⬛❇️❇️⬛ \n⬛❇️❇️⬛ \n⬛⬛⬛⬛`")
             await asyncio.sleep(1)
-        await ups.edit("`😏ZAID BOT⚡\n\nYou are the 👉KING👑 Boss!!\n\nPlease wait 5min😁😁\nThen try .alive to check` 😎😎\n\n**Powered by :-**\n@ZAID_UPDATES ")
+        await ups.edit("`😏ᴢᴀɪᴅ ᴜꜱᴇʀʙᴏᴛ⚡\n\nʏᴏᴜ ʀ ᴛʜᴇ 😈ᴍᴀꜱᴛᴇʀ👑 ʙᴏᴏꜱꜱ!!\n\nᴘʟᴢ ᴡᴀɪᴍᴛ ꜱᴏᴍᴇ ᴍɪɴᴜᴛᴇꜱ😁😁\nᴛʜᴇɴ ᴛʀʏ .alive ᴛᴏ ᴄʜᴇᴄᴋ` 😎😎\n\n**ᴘᴏᴡᴇʀᴇᴅ ʙʏ :-**\n@ZAID_UPDATES ")
         remote.push(refspec="HEAD:refs/heads/master", force=True)
     else:
         try:
