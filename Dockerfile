@@ -56,7 +56,7 @@ RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.d
 RUN wget -O chromedriver.zip http://chromedriver.storage.googleapis.com/$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE)/chromedriver_linux64.zip  && \
     unzip chromedriver.zip chromedriver -d /usr/bin/ && \
     rm chromedriver.zip
-COPY start.py .
+COPY zaidub.py .
 COPY requirements.txt .
 RUN pip3 install --upgrade pip && pip3 install --no-cache-dir -r requirements.txt
 CMD ["python3","zaidub.py"]
