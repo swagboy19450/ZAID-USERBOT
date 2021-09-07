@@ -8,7 +8,7 @@ from plugins.utils import admin_cmd, sudo_cmd, edit_or_reply
 from . import *
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "zaid User"
-mafia = borg.uid
+zaid = borg.uid
 
 PICS_STR = []
 
