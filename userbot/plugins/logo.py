@@ -12,7 +12,7 @@ mafia = borg.uid
 
 PICS_STR = []
 
-@bot.on(admin_cmd(pattern=r"logo ?(.*)"))
+@borg.on(admin_cmd(pattern=r"logo ?(.*)"))
 @bot.on(sudo_cmd(pattern=r"logo ?(.*)", allow_sudo=True))
 async def _(mafiaevent):
     event = await edit_or_reply(mafiaevent, "`Processing.....`")
