@@ -12,8 +12,8 @@ mafia = borg.uid
 
 PICS_STR = []
 
-@borg.on(admin_cmd(pattern=r"logo ?(.*)"))
-@bot.on(sudo_cmd(pattern=r"logo ?(.*)", allow_sudo=True))
+@borg.on(admin_cmd(pattern=f"logo ?(.*)"))
+@bot.on(sudo_cmd(pattern=f"logo ?(.*)", allow_sudo=True))
 async def _(mafiaevent):
     event = await edit_or_reply(mafiaevent, "`Processing.....`")
     fnt = await get_font_file(mafiaevent.client, "@D3VIL_FONTSS")
