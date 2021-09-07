@@ -1,7 +1,4 @@
-import os
-from telethon.tl.types import ChatBannedRights
-ENV = bool(os.environ.get("ENV", False))
-if ENV:
+
     import os
     class Config(object):
         LOGGER = True
@@ -137,6 +134,5 @@ if ENV:
         #for tag logs
         TAG_LOG = os.environ.get("TAG_LOG", None)
        
-else:
-    class Config(object):
-        DB_URI = None
+class Development(Var):
+    LOGGER = True
