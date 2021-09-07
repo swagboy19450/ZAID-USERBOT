@@ -12,11 +12,11 @@ mafia = borg.uid
 
 PICS_STR = []
 
-@borg.on(admin_cmd(pattern=f"logo ?(.*)"))
-@bot.on(sudo_cmd(pattern=f"logo ?(.*)", allow_sudo=True))
+@borg.on(admin_cmd(pattern=r"logo ?(.*)"))
+@borg.on(sudo_cmd(pattern=r"logo ?(.*)", allow_sudo=True))
 async def _(mafiaevent):
-    event = await edit_or_reply(mafiaevent, "`Processing.....`")
-    fnt = await get_font_file(mafiaevent.client, "@D3VIL_FONTSS")
+    event = await edit_or_reply(zaidevent, "`Processing.....`")
+    fnt = await get_font_file(zaidevent.client, "@D3VIL_FONTSS")
     if mafiaevent.reply_to_msg_id:
         rply = await mafiaevent.get_reply_message()
         logo_ = await rply.download_media()
@@ -56,7 +56,7 @@ async def _(mafiaevent):
     draw.text(
         (w_, h_), text, font=font, fill="white", stroke_width=strik, stroke_fill="black"
     )
-    file_name = "MafiaBot.png"
+    file_name = "ZaidBot.png"
     img.save(file_name, "png")
     await bot.send_file(
         mafiaevent.chat_id,
