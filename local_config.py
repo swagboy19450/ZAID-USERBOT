@@ -127,5 +127,6 @@ class Config(object):
         #for tag logs
         TAG_LOG = os.environ.get("TAG_LOG", None)
        
+
 class Development(Var):
     LOGGER = True
