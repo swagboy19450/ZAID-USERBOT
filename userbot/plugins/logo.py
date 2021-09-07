@@ -4,10 +4,10 @@ import time
 
 from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterPhotos, InputMessagesFilterDocument
-from mafiabot.utils import admin_cmd, sudo_cmd, edit_or_reply
+from plugins.utils import admin_cmd, sudo_cmd, edit_or_reply
 from . import *
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Mafia User"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "zaid User"
 mafia = borg.uid
 
 PICS_STR = []
@@ -18,7 +18,7 @@ async def _(mafiaevent):
     event = await edit_or_reply(zaidevent, "`Processing.....`")
     fnt = await get_font_file(zaidevent.client, "@D3VIL_FONTSS")
     if mafiaevent.reply_to_msg_id:
-        rply = await mafiaevent.get_reply_message()
+        rply = await zaidevent.get_reply_message()
         logo_ = await rply.download_media()
     else:
         async for i in bot.iter_messages("@D3VIL_GFX_BG", filter=InputMessagesFilterPhotos):
@@ -61,7 +61,7 @@ async def _(mafiaevent):
     await bot.send_file(
         mafiaevent.chat_id,
         file_name,
-        caption=f"**мα∂ε вү  :** 『[{DEFAULTUSER}](tg://user?id={mafia})』\n\n",
+        caption=f"**мα∂ε By  :** 『[{DEFAULTUSER}](tg://user?id={mafia})』\n\n",
     )
     await event.delete()
     try:
